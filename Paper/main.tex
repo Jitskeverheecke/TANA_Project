@@ -1,0 +1,70 @@
+\documentclass{report}
+\usepackage[english]{babel}
+%Package for images
+\usepackage{graphicx}
+%graphicx folder
+\graphicspath{images/}
+%Package for math
+\usepackage{amsmath,amssymb,amsfonts,textcomp,amsthm,mathrsfs}
+\usepackage{url}
+
+%Used for defining own colours for the chapter numbering and sections colours
+\usepackage{xcolor}
+%For quotes at the beginning of chapters
+\usepackage{epigraph}
+%External linking
+\usepackage{hyperref}
+%Pakket voor itemize deftig te maken
+\usepackage{enumitem}
+%Random text generator
+\usepackage{lipsum}
+%To be able to wrap text around figures
+\usepackage{wrapfig}
+
+% Page layout
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm]{geometry}
+
+%Package for codes
+\usepackage{minted}
+
+%Use subfigures
+\usepackage{caption}
+\usepackage{subcaption}
+
+% Chapter and section formatting
+\usepackage{titlesec}
+\titleformat{\chapter}[display]{\normalfont\bfseries\color[RGB]{0, 71, 171}\Huge}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+
+\titleformat{\section}[block]{\normalfont\bfseries\color[RGB]{0, 71, 171}\Large}{\thesection}{10pt}{\Large}
+
+\titleformat{\subsection}[block]{\normalfont\bfseries\color[RGB]{0,71,171}\large}{\thesubsection}{10pt}{\large}
+
+\titlespacing*{\chapter}{0pt}{0pt}{20pt}
+
+% Title page
+\begin{document}
+\input{Titlepage.tex}
+
+
+% Table of contents
+\pagenumbering{roman}
+\tableofcontents
+
+% Chapters
+\include{Abstract}
+
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\include{Introduction}
+\include{Methods}
+\include{Results}
+%\include{Discussion}
+\include{Conclusion}
+\appendix
+\include{Appendix.tex}
+
+\bibliographystyle{ieeetr}
+\bibliography{ref}
+
+\end{document}

@@ -12,4 +12,21 @@
 \begin{equation}
     kpc, M_\odot, Gyr
 \end{equation}
+A general function can be expanded in spherical harmonics as
+\begin{equation}
+    f(\textbf{r}) = f(r, \theta, \phi) = \sum_{l=0}^{\infty} \sum_{m=-l}^{l} f_{lm}(r) Y_{lm}(\theta, \phi)
+\end{equation}
+The coefficients are given by
+\begin{equation}
+    f_{lm}(r) = \int Y_{lm}^*(\theta, \phi) f(r, \theta, \phi) d\Omega
+\end{equation}
+where $d\Omega = \sin{\theta} d\theta d\phi$ is the solid angle element following the orthonormality relation of the spherical basis functions. For a fully spherically symmetric system, only the monopole term in the expansion survives, i.e. \(l=0, m=0\).
 
+For a discrete sampling of the underlying function, the above expression amounts to a summation over all particles in a shell of radius $r_j$.
+\begin{equation}
+    f_{lm}(r_j) = \sum_{i} Y_{lm}^*(\theta_i, \phi_i) f(r_i, \theta_i, \phi_i)
+\end{equation}
+For a discrete distribution of particles, with $\rho(\textbf{r}_j) = \sum_{i} \delta(\textbf{r}_j - \textbf{r}_i)$, the coefficients can be expressed as
+\begin{equation}
+    \rho_{lm}(r_j) = \int Y_{lm}^*(\theta, \phi) \rho(r_j, \theta, \phi) d\Omega
+\end{equation}

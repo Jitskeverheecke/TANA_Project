@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.17)  31 OCT 2025 11:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.17)  1 NOV 2025 15:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -660,7 +660,7 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20251031111442 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20251101154703 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
 
  (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.aux (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Abstract.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Introduction.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Methods.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Results.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Conclusion.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Appendix.aux))
  ***********
@@ -671,17 +671,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BDB8E03DD3E53568CF59112665191609;1029.
  ) 
 Here is how much of TeX's memory you used:
- 18909 strings out of 468133
- 365410 string characters out of 5430712
- 975221 words of memory out of 5000000
- 47208 multiletter control sequences out of 15000+600000
- 631442 words of font info for 59 fonts, out of 8000000 for 9000
+ 18917 strings out of 468133
+ 365496 string characters out of 5430712
+ 979221 words of memory out of 5000000
+ 47210 multiletter control sequences out of 15000+600000
+ 632061 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,5n,79p,616b,511s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.pdf (9 pages, 746531 bytes).
+<C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.pdf (9 pages, 771594 bytes).
 PDF statistics:
- 148 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
+ 163 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

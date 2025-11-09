@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.17)  1 NOV 2025 15:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.17)  9 NOV 2025 05:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -602,21 +602,101 @@ l.59 \include{Introduction}
 
  (Methods.tex
 Chapter 2.
-)
+<Figures/2D_Histogram_Spherical_Coordinates.pdf, id=87, 410.91956pt x 269.202pt>
+File: Figures/2D_Histogram_Spherical_Coordinates.pdf Graphic file (type pdf)
+<use Figures/2D_Histogram_Spherical_Coordinates.pdf>
+Package pdftex.def Info: Figures/2D_Histogram_Spherical_Coordinates.pdf  used on input line 4.
+(pdftex.def)             Requested size: 298.75262pt x 195.72302pt.
+<Figures/Circular_Velocity_Profile.pdf, id=88, 416.7053pt x 414.83044pt>
+File: Figures/Circular_Velocity_Profile.pdf Graphic file (type pdf)
+<use Figures/Circular_Velocity_Profile.pdf>
+Package pdftex.def Info: Figures/Circular_Velocity_Profile.pdf  used on input line 9.
+(pdftex.def)             Requested size: 298.75262pt x 297.41806pt.
+<Figures/Density_Profile_Fits.pdf, id=89, 409.02812pt x 399.9906pt>
+File: Figures/Density_Profile_Fits.pdf Graphic file (type pdf)
+<use Figures/Density_Profile_Fits.pdf>
+Package pdftex.def Info: Figures/Density_Profile_Fits.pdf  used on input line 14.
+(pdftex.def)             Requested size: 298.75262pt x 292.16771pt.
+
 
 [2
 
 
 
 
-]
+ <./Figures/2D_Histogram_Spherical_Coordinates.pdf> <./Figures/Circular_Velocity_Profile.pdf>]
+<Figures/Density_Relative_error.pdf, id=189, 415.05063pt x 399.9906pt>
+File: Figures/Density_Relative_error.pdf Graphic file (type pdf)
+<use Figures/Density_Relative_error.pdf>
+Package pdftex.def Info: Figures/Density_Relative_error.pdf  used on input line 19.
+(pdftex.def)             Requested size: 298.75262pt x 287.91977pt.
+<Figures/Dynamical_Time_Profile.pdf, id=190, 432.34625pt x 270.29044pt>
+File: Figures/Dynamical_Time_Profile.pdf Graphic file (type pdf)
+<use Figures/Dynamical_Time_Profile.pdf>
+Package pdftex.def Info: Figures/Dynamical_Time_Profile.pdf  used on input line 27.
+(pdftex.def)             Requested size: 298.75262pt x 186.76866pt.
+
+
+[3 <./Figures/Density_Profile_Fits.pdf> <./Figures/Density_Relative_error.pdf>]
+<Figures/Escape_Velocity_Profile.pdf, id=307, 430.03868pt x 270.29044pt>
+File: Figures/Escape_Velocity_Profile.pdf Graphic file (type pdf)
+<use Figures/Escape_Velocity_Profile.pdf>
+Package pdftex.def Info: Figures/Escape_Velocity_Profile.pdf  used on input line 32.
+(pdftex.def)             Requested size: 298.75262pt x 187.775pt.
+<Figures/Orbit_Energy_Einasto_8kpc.pdf, id=308, 271.71611pt x 271.65991pt>
+File: Figures/Orbit_Energy_Einasto_8kpc.pdf Graphic file (type pdf)
+<use Figures/Orbit_Energy_Einasto_8kpc.pdf>
+Package pdftex.def Info: Figures/Orbit_Energy_Einasto_8kpc.pdf  used on input line 36.
+(pdftex.def)             Requested size: 298.75262pt x 298.71904pt.
+<Figures/Orbits_in_Einasto_Potential_8kpc.pdf, id=309, 851.72017pt x 272.05438pt>
+File: Figures/Orbits_in_Einasto_Potential_8kpc.pdf Graphic file (type pdf)
+<use Figures/Orbits_in_Einasto_Potential_8kpc.pdf>
+Package pdftex.def Info: Figures/Orbits_in_Einasto_Potential_8kpc.pdf  used on input line 40.
+(pdftex.def)             Requested size: 298.75262pt x 95.42801pt.
+
+
+[4 <./Figures/Dynamical_Time_Profile.pdf> <./Figures/Escape_Velocity_Profile.pdf>]
+<Figures/Orbits_in_Einasto_Potential_Overlay_8kpc.pdf, id=408, 418.11772pt x 417.0067pt>
+File: Figures/Orbits_in_Einasto_Potential_Overlay_8kpc.pdf Graphic file (type pdf)
+<use Figures/Orbits_in_Einasto_Potential_Overlay_8kpc.pdf>
+Package pdftex.def Info: Figures/Orbits_in_Einasto_Potential_Overlay_8kpc.pdf  used on input line 44.
+(pdftex.def)             Requested size: 298.75262pt x 297.97299pt.
+
+
+[5 <./Figures/Orbit_Energy_Einasto_8kpc.pdf> <./Figures/Orbits_in_Einasto_Potential_8kpc.pdf>]
+<Figures/Potential_Profile_Fits.pdf, id=467, 416.80293pt x 270.29044pt>
+File: Figures/Potential_Profile_Fits.pdf Graphic file (type pdf)
+<use Figures/Potential_Profile_Fits.pdf>
+Package pdftex.def Info: Figures/Potential_Profile_Fits.pdf  used on input line 49.
+(pdftex.def)             Requested size: 298.75262pt x 193.74284pt.
+<Figures/Potential_Profile.pdf, id=468, 420.94766pt x 303.39034pt>
+File: Figures/Potential_Profile.pdf Graphic file (type pdf)
+<use Figures/Potential_Profile.pdf>
+Package pdftex.def Info: Figures/Potential_Profile.pdf  used on input line 53.
+(pdftex.def)             Requested size: 298.75262pt x 215.32068pt.
+<Figures/Sphericity_Analysis.pdf, id=469, 849.32242pt x 271.0972pt>
+File: Figures/Sphericity_Analysis.pdf Graphic file (type pdf)
+<use Figures/Sphericity_Analysis.pdf>
+Package pdftex.def Info: Figures/Sphericity_Analysis.pdf  used on input line 57.
+(pdftex.def)             Requested size: 298.75262pt x 95.35701pt.
+
+
+[6 <./Figures/Orbits_in_Einasto_Potential_Overlay_8kpc.pdf> <./Figures/Potential_Profile_Fits.pdf>]
+<Figures/Velocity_Anisotropy_Profile.pdf, id=539, 416.74821pt x 269.21805pt>
+File: Figures/Velocity_Anisotropy_Profile.pdf Graphic file (type pdf)
+<use Figures/Velocity_Anisotropy_Profile.pdf>
+Package pdftex.def Info: Figures/Velocity_Anisotropy_Profile.pdf  used on input line 61.
+(pdftex.def)             Requested size: 298.75262pt x 193.00293pt.
+)
+
+[7 <./Figures/Potential_Profile.pdf> <./Figures/Sphericity_Analysis.pdf> <./Figures/Velocity_Anisotropy_Profile.pdf>]
 \openout2 = `Results.aux'.
 
  (Results.tex
 Chapter 3.
 )
 
-[3
+[8
 
 
 
@@ -628,7 +708,7 @@ Chapter 3.
 Chapter 4.
 )
 
-[4
+[9
 
 
 
@@ -644,7 +724,7 @@ Package hyperref Warning: Difference (2) between bookmark levels is greater
 
 )
 
-[5
+[10
 
 
 
@@ -655,12 +735,12 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 
-[6
+[11
 
 
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20251101154703 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20251109054641 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
 
  (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.aux (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Abstract.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Introduction.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Methods.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Results.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Conclusion.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Appendix.aux))
  ***********
@@ -671,17 +751,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: BDB8E03DD3E53568CF59112665191609;1029.
  ) 
 Here is how much of TeX's memory you used:
- 18917 strings out of 468133
- 365496 string characters out of 5430712
- 979221 words of memory out of 5000000
- 47210 multiletter control sequences out of 15000+600000
+ 19032 strings out of 468133
+ 370186 string characters out of 5430712
+ 979229 words of memory out of 5000000
+ 47307 multiletter control sequences out of 15000+600000
  632061 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,5n,79p,616b,511s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,6n,79p,616b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.pdf (9 pages, 771594 bytes).
+Output written on e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.pdf (14 pages, 1759254 bytes).
 PDF statistics:
- 163 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 749 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 

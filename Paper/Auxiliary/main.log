@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.17)  9 NOV 2025 05:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.17)  10 NOV 2025 22:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -444,7 +444,23 @@ Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count350
 Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count351
-) (C:\Users\chris\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+) (C:\Users\chris\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+Package cleveref Info: `amsthm' support loaded on input line 3026.
+)
+==> First Aid for cleveref.sty applied!
+(C:\Users\chris\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box66
 \beforetitleunit=\skip64
@@ -455,27 +471,27 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen197
 \titlewidthlast=\dimen198
 \titlewidthfirst=\dimen199
-) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.aux (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Abstract.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Introduction.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Methods.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Results.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Conclusion.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Appendix.aux))
+) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.aux (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Introduction.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Appendix.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
  (C:\Users\chris\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count352
@@ -495,7 +511,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\chris\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 45.
+Package hyperref Info: Link coloring OFF on input line 46.
  (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.out) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -538,12 +554,12 @@ Package hyperref Info: Link coloring OFF on input line 45.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 (Titlepage.tex
-<images/logo_UGent_EN_RGB_2400_color.png, id=39, 106.68858pt x 85.36894pt>
+<images/logo_UGent_EN_RGB_2400_color.png, id=11, 106.68858pt x 85.36894pt>
 File: images/logo_UGent_EN_RGB_2400_color.png Graphic file (type png)
 <use images/logo_UGent_EN_RGB_2400_color.png>
 Package pdftex.def Info: images/logo_UGent_EN_RGB_2400_color.png  used on input line 4.
 (pdftex.def)             Requested size: 213.39566pt x 170.75305pt.
-<images/Gravity-9b985a4-scaled.jpg, id=41, 2569.6pt x 1489.565pt>
+<images/Gravity-9b985a4-scaled.jpg, id=13, 2569.6pt x 1489.565pt>
 File: images/Gravity-9b985a4-scaled.jpg Graphic file (type jpg)
 <use images/Gravity-9b985a4-scaled.jpg>
 Package pdftex.def Info: images/Gravity-9b985a4-scaled.jpg  used on input line 13.
@@ -552,19 +568,7 @@ Package pdftex.def Info: images/Gravity-9b985a4-scaled.jpg  used on input line 1
 
 [1
 
-{C:/Users/chris/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/logo_UGent_EN_RGB_2400_color.png> <./images/Gravity-9b985a4-scaled.jpg>]) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
- (C:\Users\chris\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
- (C:\Users\chris\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 3.
- (C:\Users\chris\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
-File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
-))
+{C:/Users/chris/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/logo_UGent_EN_RGB_2400_color.png> <./images/Gravity-9b985a4-scaled.jpg>]) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.toc)
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
@@ -573,158 +577,95 @@ File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 [1
 
 ]
-\openout2 = `Abstract.aux'.
-
- (Abstract.tex)
-
-[2
-
-]
 \openout2 = `Introduction.aux'.
 
  (Introduction.tex
 Chapter 1.
+
+Overfull \hbox (7.3071pt too wide) in paragraph at lines 1--1
+|\OT1/cmr/bx/n/24.88 Dynamical anal-y-sis of a dark-matter
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 7.
+(C:\Users\chris\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
+LaTeX Font Info:    Trying to load font information for U+msb on input line 7.
+ (C:\Users\chris\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 7.
+ (C:\Users\chris\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+<Figures/DM_Distribution_3D.png, id=34, 351.2322pt x 379.8993pt>
+File: Figures/DM_Distribution_3D.png Graphic file (type png)
+<use Figures/DM_Distribution_3D.png>
+Package pdftex.def Info: Figures/DM_Distribution_3D.png  used on input line 16.
+(pdftex.def)             Requested size: 256.0774pt x 276.98798pt.
+<Figures/DM_Distribution_Velocity_Encoded.png, id=37, 989.3763pt x 271.2534pt>
+File: Figures/DM_Distribution_Velocity_Encoded.png Graphic file (type png)
+<use Figures/DM_Distribution_Velocity_Encoded.png>
+Package pdftex.def Info: Figures/DM_Distribution_Velocity_Encoded.png  used on input line 23.
+(pdftex.def)             Requested size: 422.52576pt x 115.842pt.
+
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.59 \include{Introduction}
-                            [1
+l.26 \end{figure}
+                  [1
 
 
 
+ <./Figures/DM_Distribution_3D.png>]
+<Figures/Sphericity_Analysis_density.png, id=51, 1138.4934pt x 340.1508pt>
+File: Figures/Sphericity_Analysis_density.png Graphic file (type png)
+<use Figures/Sphericity_Analysis_density.png>
+Package pdftex.def Info: Figures/Sphericity_Analysis_density.png  used on input line 46.
+(pdftex.def)             Requested size: 426.79134pt x 127.51471pt.
 
 
-]
-\openout2 = `Methods.aux'.
-
- (Methods.tex
-Chapter 2.
-<Figures/2D_Histogram_Spherical_Coordinates.pdf, id=87, 410.91956pt x 269.202pt>
-File: Figures/2D_Histogram_Spherical_Coordinates.pdf Graphic file (type pdf)
-<use Figures/2D_Histogram_Spherical_Coordinates.pdf>
-Package pdftex.def Info: Figures/2D_Histogram_Spherical_Coordinates.pdf  used on input line 4.
-(pdftex.def)             Requested size: 298.75262pt x 195.72302pt.
-<Figures/Circular_Velocity_Profile.pdf, id=88, 416.7053pt x 414.83044pt>
-File: Figures/Circular_Velocity_Profile.pdf Graphic file (type pdf)
-<use Figures/Circular_Velocity_Profile.pdf>
-Package pdftex.def Info: Figures/Circular_Velocity_Profile.pdf  used on input line 9.
-(pdftex.def)             Requested size: 298.75262pt x 297.41806pt.
-<Figures/Density_Profile_Fits.pdf, id=89, 409.02812pt x 399.9906pt>
-File: Figures/Density_Profile_Fits.pdf Graphic file (type pdf)
-<use Figures/Density_Profile_Fits.pdf>
-Package pdftex.def Info: Figures/Density_Profile_Fits.pdf  used on input line 14.
-(pdftex.def)             Requested size: 298.75262pt x 292.16771pt.
-
-
-[2
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-
- <./Figures/2D_Histogram_Spherical_Coordinates.pdf> <./Figures/Circular_Velocity_Profile.pdf>]
-<Figures/Density_Relative_error.pdf, id=189, 415.05063pt x 399.9906pt>
-File: Figures/Density_Relative_error.pdf Graphic file (type pdf)
-<use Figures/Density_Relative_error.pdf>
-Package pdftex.def Info: Figures/Density_Relative_error.pdf  used on input line 19.
-(pdftex.def)             Requested size: 298.75262pt x 287.91977pt.
-<Figures/Dynamical_Time_Profile.pdf, id=190, 432.34625pt x 270.29044pt>
-File: Figures/Dynamical_Time_Profile.pdf Graphic file (type pdf)
-<use Figures/Dynamical_Time_Profile.pdf>
-Package pdftex.def Info: Figures/Dynamical_Time_Profile.pdf  used on input line 27.
-(pdftex.def)             Requested size: 298.75262pt x 186.76866pt.
-
-
-[3 <./Figures/Density_Profile_Fits.pdf> <./Figures/Density_Relative_error.pdf>]
-<Figures/Escape_Velocity_Profile.pdf, id=307, 430.03868pt x 270.29044pt>
-File: Figures/Escape_Velocity_Profile.pdf Graphic file (type pdf)
-<use Figures/Escape_Velocity_Profile.pdf>
-Package pdftex.def Info: Figures/Escape_Velocity_Profile.pdf  used on input line 32.
-(pdftex.def)             Requested size: 298.75262pt x 187.775pt.
-<Figures/Orbit_Energy_Einasto_8kpc.pdf, id=308, 271.71611pt x 271.65991pt>
-File: Figures/Orbit_Energy_Einasto_8kpc.pdf Graphic file (type pdf)
-<use Figures/Orbit_Energy_Einasto_8kpc.pdf>
-Package pdftex.def Info: Figures/Orbit_Energy_Einasto_8kpc.pdf  used on input line 36.
-(pdftex.def)             Requested size: 298.75262pt x 298.71904pt.
-<Figures/Orbits_in_Einasto_Potential_8kpc.pdf, id=309, 851.72017pt x 272.05438pt>
-File: Figures/Orbits_in_Einasto_Potential_8kpc.pdf Graphic file (type pdf)
-<use Figures/Orbits_in_Einasto_Potential_8kpc.pdf>
-Package pdftex.def Info: Figures/Orbits_in_Einasto_Potential_8kpc.pdf  used on input line 40.
-(pdftex.def)             Requested size: 298.75262pt x 95.42801pt.
+[2 <./Figures/DM_Distribution_Velocity_Encoded.png>]
+<Figures/Enclosed_Mass_Profile.png, id=64, 270.2898pt x 267.8808pt>
+File: Figures/Enclosed_Mass_Profile.png Graphic file (type png)
+<use Figures/Enclosed_Mass_Profile.png>
+Package pdftex.def Info: Figures/Enclosed_Mass_Profile.png  used on input line 69.
+(pdftex.def)             Requested size: 170.71393pt x 169.19498pt.
+<Figures/Density_and_Potential_Fits.png, id=65, 1069.596pt x 346.896pt>
+File: Figures/Density_and_Potential_Fits.png Graphic file (type png)
+<use Figures/Density_and_Potential_Fits.png>
+Package pdftex.def Info: Figures/Density_and_Potential_Fits.png  used on input line 92.
+(pdftex.def)             Requested size: 426.79134pt x 138.42245pt.
 
 
-[4 <./Figures/Dynamical_Time_Profile.pdf> <./Figures/Escape_Velocity_Profile.pdf>]
-<Figures/Orbits_in_Einasto_Potential_Overlay_8kpc.pdf, id=408, 418.11772pt x 417.0067pt>
-File: Figures/Orbits_in_Einasto_Potential_Overlay_8kpc.pdf Graphic file (type pdf)
-<use Figures/Orbits_in_Einasto_Potential_Overlay_8kpc.pdf>
-Package pdftex.def Info: Figures/Orbits_in_Einasto_Potential_Overlay_8kpc.pdf  used on input line 44.
-(pdftex.def)             Requested size: 298.75262pt x 297.97299pt.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
+<Figures/Velocity_and_Dynamical_Time_Profiles.png, id=66, 1066.7052pt x 269.3262pt>
+File: Figures/Velocity_and_Dynamical_Time_Profiles.png Graphic file (type png)
+<use Figures/Velocity_and_Dynamical_Time_Profiles.png>
+Package pdftex.def Info: Figures/Velocity_and_Dynamical_Time_Profiles.png  used on input line 99.
+(pdftex.def)             Requested size: 426.79134pt x 107.75734pt.
 
-[5 <./Figures/Orbit_Energy_Einasto_8kpc.pdf> <./Figures/Orbits_in_Einasto_Potential_8kpc.pdf>]
-<Figures/Potential_Profile_Fits.pdf, id=467, 416.80293pt x 270.29044pt>
-File: Figures/Potential_Profile_Fits.pdf Graphic file (type pdf)
-<use Figures/Potential_Profile_Fits.pdf>
-Package pdftex.def Info: Figures/Potential_Profile_Fits.pdf  used on input line 49.
-(pdftex.def)             Requested size: 298.75262pt x 193.74284pt.
-<Figures/Potential_Profile.pdf, id=468, 420.94766pt x 303.39034pt>
-File: Figures/Potential_Profile.pdf Graphic file (type pdf)
-<use Figures/Potential_Profile.pdf>
-Package pdftex.def Info: Figures/Potential_Profile.pdf  used on input line 53.
-(pdftex.def)             Requested size: 298.75262pt x 215.32068pt.
-<Figures/Sphericity_Analysis.pdf, id=469, 849.32242pt x 271.0972pt>
-File: Figures/Sphericity_Analysis.pdf Graphic file (type pdf)
-<use Figures/Sphericity_Analysis.pdf>
-Package pdftex.def Info: Figures/Sphericity_Analysis.pdf  used on input line 57.
-(pdftex.def)             Requested size: 298.75262pt x 95.35701pt.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-[6 <./Figures/Orbits_in_Einasto_Potential_Overlay_8kpc.pdf> <./Figures/Potential_Profile_Fits.pdf>]
-<Figures/Velocity_Anisotropy_Profile.pdf, id=539, 416.74821pt x 269.21805pt>
-File: Figures/Velocity_Anisotropy_Profile.pdf Graphic file (type pdf)
-<use Figures/Velocity_Anisotropy_Profile.pdf>
-Package pdftex.def Info: Figures/Velocity_Anisotropy_Profile.pdf  used on input line 61.
-(pdftex.def)             Requested size: 298.75262pt x 193.00293pt.
 )
 
-[7 <./Figures/Potential_Profile.pdf> <./Figures/Sphericity_Analysis.pdf> <./Figures/Velocity_Anisotropy_Profile.pdf>]
-\openout2 = `Results.aux'.
+[3 <./Figures/Sphericity_Analysis_density.png> <./Figures/Enclosed_Mass_Profile.png>]
 
- (Results.tex
-Chapter 3.
-)
-
-[8
-
-
-
-
-]
-\openout2 = `Conclusion.aux'.
-
- (Conclusion.tex
-Chapter 4.
-)
-
-[9
-
-
-
-
-]
+[4 <./Figures/Density_and_Potential_Fits.png> <./Figures/Velocity_and_Dynamical_Time_Profiles.png>]
 \openout2 = `Appendix.aux'.
 
  (Appendix.tex
 Appendix A.
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 2.
-
 )
 
-[10
+[5
 
 
 
@@ -735,33 +676,33 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 
-[11
+[6
 
 
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20251109054641 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20251110223401 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
 
- (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.aux (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Abstract.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Introduction.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Methods.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Results.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Conclusion.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Appendix.aux))
+ (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.aux (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Introduction.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Appendix.aux))
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-08-13>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: BDB8E03DD3E53568CF59112665191609;1029.
+(rerunfilecheck)             Checksum: A6D0B81D4B594F052E3631ED694D530D;592.
  ) 
 Here is how much of TeX's memory you used:
- 19032 strings out of 468133
- 370186 string characters out of 5430712
- 979229 words of memory out of 5000000
- 47307 multiletter control sequences out of 15000+600000
- 632061 words of font info for 61 fonts, out of 8000000 for 9000
+ 20505 strings out of 468133
+ 401989 string characters out of 5430712
+ 1038311 words of memory out of 5000000
+ 48821 multiletter control sequences out of 15000+600000
+ 632268 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,6n,79p,616b,525s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.pdf (14 pages, 1759254 bytes).
+ 75i,10n,79p,1072b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.pdf (8 pages, 6467598 bytes).
 PDF statistics:
- 749 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 148 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 169 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 57 words of extra memory for PDF output out of 10000 (max. 10000000)
 

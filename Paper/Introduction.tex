@@ -1,32 +1,102 @@
-\chapter{Introduction}
-\section{Cosmology}
-\subsection{Cosmological parameters}
+\chapter{Dynamical analysis of a dark-matter halo in cosmological and hydrodynamical simulations}
+Simulation forms an important tool in theoretical astrophysics, allowing to model the complex structure of processes of the universe. Moreover, with the increase in computational power, simulations have become more detailed and accessible for application in astrophysics.
+
+The IllustrisTNG project steers towards a predictive theory of galaxy formation, and aims to model the universe from the very beginning after the Big Bang to the present day.
+In this project a short and quantitative analysis of a cosmological simulation that was performed within the framework of IllustrisTNG is presented. Here, the focus is laid on the analysis and discussion of the properties of a single subhalo, thus a cutout with ID 344137. 
+
+This dataset contains $N = 268525$ dark matter particles with in a cubic volume of side length $L = 35000 h^{-1}$kpc in physical length at redshift of $z\approx 0$. Here, the quantity $h=0.6774$ refers to the dimensionless Hubble parameter. Each individual particle the ensemble has a mass of $m_\text{DM} \approx 10^{6.73} M_\odot$ with $ M_\odot$ the solar mass, 3D position and corresponding velocity attributes. The system was simulated in a $\Lambda$CDM setting with $\Omega_m = 0.3089$ and $\Omega_\Lambda = 0.6911$. Even though baryonic processes will not be discussed in this work, it is worth mentioning that the full simulation also included gas cells (baryonic matter) as well with a baryonic content of $\Omega_b = 0.0486$. Other cosmological parameters and quantities of the simulation that are relevant for this work is summarized in \cref{tab:cosmological_parameters}.
+\begin{figure}[h]
+    \begin{minipage}[c]{0.4\textwidth}
+      \centering
+      \caption{3D distribution of the dark matter particles in the subhalo. The majority of the particles are concentrated within a radius of $r \approx 100$ kpc around the center of mass of the system with few outliers reaching distances up to $r \approx 407$ kpc.}
+      \label{fig:DM_distribution_3D}
+    \end{minipage}\hfill
+    \begin{minipage}[c]{0.6\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{Figures/DM_Distribution_3D.png}
+    \end{minipage}
+\end{figure}
+
+A 3D representation of the dark matter distribution of the cutout in the subhalo, centered around the center of mass of the system, is shown in \cref{fig:DM_distribution_3D}. This exposes the extent of the halo as well as it rough distribution. On scale lengths up to approximately $100$ kpc, the data can be considered spherically symmetricm, clustered around the center of mass, with a handful outliers reaching distances up to $r \approx 400$ kpc. The spherical nature of the halo can further be sensed by analysis of the 2D distribution of the particles. As illustrated in \cref{fig:DM_distribution_velocity_encoded}, where the projection along different planes are shown, with color coding of the speed of the particles, the distribution appears roughly uniform in all directions hinting spherically system.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.99\textwidth]{Figures/DM_Distribution_Velocity_Encoded.png}
+    \caption{Dark matter distribution of the cutout with ID 344137 from the IllustrisTNG simulation at redshift $z \approx 0$ in different projections. The color coding indicates the speed of the particles ranging from $230$ km/s to $620$ km/s.}
+    \label{fig:DM_distribution_velocity_encoded}
+\end{figure} 
+This symmetry behaviour can be quantified by decomposition of the distribution of the dataset on the spherical basis as is discussed as follows. 
+The number density profile ($n(\textbf{r})$) of a distribution of point particles with coordinates $\textbf{r} = (x,y,z)$ is generally given by 
+\begin{equation*}
+    n(\textbf{r}) = n(r,\theta,\phi)=\frac{1}{V}\sum_{i} \delta(\textbf{r} - \textbf{r}_i)
+\end{equation*}
+where the sum runs over all particles $i$ at position $\textbf{r}_i$ within a volume $V$. In the framework, the dataset is binned in $N=28$ spherical shells of thickness $\Delta r$ and radius $r$ around the center of mass of the system, containing particles i with spherical coordinates $(r_i, \theta_i, \phi_i)$. For each shell, the spherical harmonics decomposition of the distribution field is performed by the virtue of \cref{eq:spherical_harmonics_expansion}
+\begin{equation*}
+    n(\textbf{r}) = n(r, \theta, \phi) = \sum_{l=0}^{\infty} \sum_{m=-l}^{l} n_{lm}(r) Y_{lm}(\theta, \phi)
+    \label{eq:spherical_harmonics_expansion}
+\end{equation*}
+with $Y_{lm}(\theta, \phi)$ the spherical harmonics basis functions of order $l$ and degree $m$, and invoking the orthonormality. The coefficients $n_{lm}(r)$ are then further used to compute the power spectrum $P_l$ of the distribution as a function of the multipole order $l$ via
 \begin{equation}
-1 + z = \frac{1}{a}
+    P_l = \frac{1}{2l+1} \sum_{m=-l}^{l} |n_{lm}|^2.
 \end{equation}
+For a perfectly spherically symmetric system, only the monopole term ($n_{00}$) with ($l=0, m=0$) in the expansion survives. However, as shown in \cref{fig:sphericity_analysis_density}, the power originating from the dipole ($l=1$) and quadrupole ($l=2$) as well as $l=3$ survives. Eventhough these power survives, it can be seen that this remains in a good approximation constant for distances below approximately $100$ kpc and relatively smaller than $P_0$. The increase in the power for radii larger than $100$ kpc can be attributed to outliers and uncertainities in the density field due to less data points.
+
+Thus, in a good approximation, the dark matter distribution in the subhalo can be considered spherically symmetric, which allows for simplications in the further analysis of the system.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/Sphericity_Analysis_density.png}
+    \caption{Spherical harmonic decomposition of the density field of the dark matter distribution in the subhalo. The power spectrum $P_l$ is normalized to the monopole term $P_0$. The dominance of the monopole term ($l=0$) indicates a high degree of spherical symmetry of the system.}
+    \label{fig:sphericity_analysis_density}
+\end{figure}
+Carrying on with a spherical distribution in mind, the mass density profile ($\rho(r)$), hence forth referred simply to as density, is directly related to the spherical number density via $\rho(r) = m_\text{DM} n(r)$ with $m_\text{DM}$ the mass of an individual dark matter particle. The density $\rho(r)$ or equivalently $n(r)$ of the discrete dataset is obtained by binning the particles in radial distance of radius $r$ and thickness $\Delta r$ in the center of mass of the system and counting the number of particles in each bin. This is simply achieved by yse of the \textit{numpy} \texttt{histogram} function with 28 bins logarithmically spaced between the minimum and maximum radial distance of the particles. Dividing the number of particles in each bin by the corresponding shell volume and multiplying with the particle mass yields the density profile $\rho(r)$. Mathematically, this process amount to 
 \begin{equation}
-\Omega_m (z) = \frac{\Omega_{m,0} (1+z)^3}{\Omega_{m,0} (1+z)^3 + \Omega_{\Lambda,0}}
+    \rho(r_i) = \frac{m_\text{DM}}{V_i} \sum_{r_j \in \text{shell } i} 1 = \frac{3 \cdot m_\text{DM}}{4\pi (r_{i+1}^3-r_{i-1}^3) } \sum_{r_j \in \text{shell } i} 1.
 \end{equation}
 
-\subsection{Unit system}
-\begin{equation}
-    kpc, M_\odot, Gyr
-\end{equation}
-A general function can be expanded in spherical harmonics as
-\begin{equation}
-    f(\textbf{r}) = f(r, \theta, \phi) = \sum_{l=0}^{\infty} \sum_{m=-l}^{l} f_{lm}(r) Y_{lm}(\theta, \phi)
-\end{equation}
-The coefficients are given by
-\begin{equation}
-    f_{lm}(r) = \int Y_{lm}^*(\theta, \phi) f(r, \theta, \phi) d\Omega
-\end{equation}
-where $d\Omega = \sin{\theta} d\theta d\phi$ is the solid angle element following the orthonormality relation of the spherical basis functions. For a fully spherically symmetric system, only the monopole term in the expansion survives, i.e. \(l=0, m=0\).
+The resulting density profile is shown in \cref{fig:sphericity_analysis_density} (\textbf{left}) on a log-log representation.
+The density profile shows a typical behaviour of a dark matter halo, with a steep decrease in density for larger radii ($r\geq 100$ kpc) and a cusp, i.e flattening for radii approaching zero.
 
-For a discrete sampling of the underlying function, the above expression amounts to a summation over all particles in a shell of radius $r_j$.
 \begin{equation}
-    f_{lm}(r_j) = \sum_{i} Y_{lm}^*(\theta_i, \phi_i) f(r_i, \theta_i, \phi_i)
+    M(r_i) = 4\pi \sum_{r_j \leq r_i}  r'^2_j \rho(r_j) \, \Delta r_j
 \end{equation}
-For a discrete distribution of particles, with $\rho(\textbf{r}_j) = \sum_{i} \delta(\textbf{r}_j - \textbf{r}_i)$, the coefficients can be expressed as
+\begin{figure}[h]
+    \begin{minipage}[c]{0.5\textwidth}
+      \centering
+      \caption{Enclosed mass profile $M(r)$ of the dark matter distribution in the subhalo as a function of radial distance $r$. The enclosed mass is computed via numerical integration of the density profile $\rho(r)$.}
+      \label{fig:enclosed_mass_profile}
+    \end{minipage}\hfill
+    \begin{minipage}[c]{0.4\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{Figures/Enclosed_Mass_Profile.png}
+    \end{minipage}
+\end{figure}
+
+\begin{center}
+    \rule{0.5\textwidth}{0.5pt}
+\end{center}
+\textbf{Continue from here}
 \begin{equation}
-    \rho_{lm}(r_j) = \int Y_{lm}^*(\theta, \phi) \rho(r_j, \theta, \phi) d\Omega
+    \Phi(r_i) = -\frac{G M(r_i)}{r_i} - 4\pi G \sum_{r_j \leq r_i} \rho(r_j) r'_j \, \Delta r_j
 \end{equation}
+
+\begin{equation}
+    \rho(r) = \rho_0 \exp{\left(-2n \left[ \left( \frac{r}{r_s} \right)^{\frac{1}{n}} - 1 \right] \right)}
+\end{equation}
+
+\begin{equation}
+    \beta_j(r) = 1 - \frac{\sigma^2_j(r)}{\sigma^2_r(r)}
+\end{equation}
+
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/Density_and_Potential_Fits.png}
+    \caption{Radial density and potential profile of the dark matter distribution in the subhalo with corresponding fits using different analytical profiles. The figure in the middle showcases the relative error of the fit profile with respect to the data.}
+    \label{fig:density_potential}
+\end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{Figures/Velocity_and_Dynamical_Time_Profiles.png}
+    \caption{Profiles of circular velocity, velocity anisotropy, and dynamical time of the dark matter distribution in the subhalo.}
+    \label{fig:velocity_dynamical_time}
+\end{figure}

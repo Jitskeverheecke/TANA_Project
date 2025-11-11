@@ -53,11 +53,12 @@ Carrying on with a spherical distribution in mind, the mass density profile ($\r
 \end{equation}
 
 The resulting density profile is shown in \cref{fig:sphericity_analysis_density} (\textbf{left}) on a log-log representation.
-The density profile shows a typical behaviour of a dark matter halo, with a steep decrease in density for larger radii ($r\geq 100$ kpc) and a cusp, i.e flattening for radii approaching zero.
-
+The density profile shows a typical behaviour of a dark matter halo, with a steep decrease in density for larger radii ($r\geq 100$ kpc) and a cusp, i.e flattening for radii approaching zero. This system has a density of order of $\rho \approx 10^8 M_\odot \text{kpc}^{-3}$ at $r \leq 1$ kpc, decreasing to $\rho \approx 10^{-0.7} M_\odot \text{kpc}^{-3}$ at $r \approx 400$ kpc, encompassing a total mass of $M = 1.45 \times 10^{12} M_\odot$. 
 \begin{equation}
     M(r_i) = 4\pi \sum_{r_j \leq r_i}  r'^2_j \rho(r_j) \, \Delta r_j
+    \label{eq:enclosed_mass_profile}
 \end{equation}
+The enclosed mass profile $M(r)$ of the system, computed via integration of the density profile according to \cref{eq:enclosed_mass_profile}, is illustrated in \cref{fig:enclosed_mass_profile}. It is evident as argumented already that almost all of the mass of the system is concentrated within a radius of approximately $100$ kpc, with virtually no to little increase in mass for larger radii.
 \begin{figure}[h]
     \begin{minipage}[c]{0.5\textwidth}
       \centering
@@ -94,9 +95,16 @@ The density profile shows a typical behaviour of a dark matter halo, with a stee
     \label{fig:density_potential}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}
     \centering
     \includegraphics[width=\textwidth]{Figures/Velocity_and_Dynamical_Time_Profiles.png}
     \caption{Profiles of circular velocity, velocity anisotropy, and dynamical time of the dark matter distribution in the subhalo.}
     \label{fig:velocity_dynamical_time}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\textwidth]{Figures/Orbits_in_Einasto_Potential_8kpc.png}
+    \caption{Orbits of a test particles initialized at a distance of $r_0 = 8$ kpc from the center of mass of the system with different initial circular velocity. The stable orbit (blue) corresponds to the circular velocity at this radius, while the other orbits (orange and green) show precessing rosette patterns due to their lower and higher initial velocity, respectively. The potential used for the orbit integration is the fitted Einasto potential of the system.}
+    \label{fig:orbits_in_einasto_potential}
 \end{figure}

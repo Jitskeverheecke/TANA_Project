@@ -1,22 +1,22 @@
 # Fdb version 4
-["bibtex Auxiliary/main"] 1762810099.51921 "Auxiliary/main.aux" "Auxiliary/main.bbl" "Auxiliary/main" 1762810447.41475 0
+["bibtex Auxiliary/main"] 1762868574.59181 "Auxiliary/main.aux" "Auxiliary/main.bbl" "Auxiliary/main" 1762868600.82197 0
   "./ref.bib" 1762792754 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Auxiliary/Appendix.aux" 1762810446 1825 05a1a413a2f3aa52ac8d91c62f7db61e "pdflatex"
-  "Auxiliary/Introduction.aux" 1762810446 6062 22d62874c3be3b0bdb4c5826dc16e5e9 "pdflatex"
-  "Auxiliary/main.aux" 1762810446 427 e719dc76ae1aa5062c5f9a484edace5c "pdflatex"
+  "Auxiliary/Appendix.aux" 1762868599 1825 5de15c83f0dccaceb767cf9e4a5ed9ac "pdflatex"
+  "Auxiliary/Introduction.aux" 1762868599 7485 cffca6b2d0f86ac0951023b8897c1708 "pdflatex"
+  "Auxiliary/main.aux" 1762868599 427 59583e65bfe9f9332a913284e555f810 "pdflatex"
   "C:/Users/chris/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
   (generated)
   "Auxiliary/main.bbl"
   "Auxiliary/main.blg"
   (rewritten before read)
-["pdflatex"] 1762810440.51196 "e:/studie/Master/Theoretical-and-Numerical-Astrophysics/TANA_project/Paper/main.tex" "Auxiliary/main.pdf" "main" 1762810447.4171 0
+["pdflatex"] 1762868592.99349 "e:/studie/Master/Theoretical-and-Numerical-Astrophysics/TANA_project/Paper/main.tex" "Auxiliary/main.pdf" "main" 1762868600.82433 0
   "Appendix.tex" 1762793928 815 1d262686627fe4d7b215b8cd662d9a89 ""
-  "Auxiliary/Appendix.aux" 1762810446 1825 05a1a413a2f3aa52ac8d91c62f7db61e "pdflatex"
-  "Auxiliary/Introduction.aux" 1762810446 6062 22d62874c3be3b0bdb4c5826dc16e5e9 "pdflatex"
-  "Auxiliary/main.aux" 1762810446 427 e719dc76ae1aa5062c5f9a484edace5c "pdflatex"
-  "Auxiliary/main.bbl" 1762810099 52 0eba253fc001332e731e8aba3f23127b "bibtex Auxiliary/main"
-  "Auxiliary/main.out" 1762810446 592 a6d0b81d4b594f052e3631ed694d530d "pdflatex"
-  "Auxiliary/main.toc" 1762810446 238 bbf3a2f4742e03dc5d6c670d39d45d7b "pdflatex"
+  "Auxiliary/Appendix.aux" 1762868599 1825 5de15c83f0dccaceb767cf9e4a5ed9ac "pdflatex"
+  "Auxiliary/Introduction.aux" 1762868599 7485 cffca6b2d0f86ac0951023b8897c1708 "pdflatex"
+  "Auxiliary/main.aux" 1762868599 427 59583e65bfe9f9332a913284e555f810 "pdflatex"
+  "Auxiliary/main.bbl" 1762868574 52 0eba253fc001332e731e8aba3f23127b "bibtex Auxiliary/main"
+  "Auxiliary/main.out" 1762868599 592 a6d0b81d4b594f052e3631ed694d530d "pdflatex"
+  "Auxiliary/main.toc" 1762868599 238 54d7e3b2e3589a7905bb6f10caa93523 "pdflatex"
   "C:/Users/chris/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1762376463 280592 de1380b8833e69b921f95a41a9016d3a ""
   "C:/Users/chris/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs10.tfm" 1744019911 688 37338d6ab346c2f1466b29e195316aa4 ""
   "C:/Users/chris/AppData/Local/MiKTeX/fonts/tfm/public/rsfs/rsfs5.tfm" 1744019919 684 3a51bd4fd9600428d5264cf25f04bb9a ""
@@ -143,10 +143,11 @@
   "Figures/DM_Distribution_3D.png" 1762792690 658393 91df08a594ae6d8822bbeeab0c706a83 ""
   "Figures/DM_Distribution_Velocity_Encoded.png" 1762802753 5132306 3fbb9317821b7d8c0e1f06712af58f4a ""
   "Figures/Density_and_Potential_Fits.png" 1762805932 170186 67c25571674b5c62b9f1ef0a616d600c ""
-  "Figures/Enclosed_Mass_Profile.png" 1762810025 86266 a53c8dad5c7f00ac8cf2b5138b8676ba ""
+  "Figures/Enclosed_Mass_Profile.png" 1762862589 86266 a53c8dad5c7f00ac8cf2b5138b8676ba ""
+  "Figures/Orbits_in_Einasto_Potential_8kpc.png" 1762867858 473129 faaaeeba4800843837c7ae2b1ed80a53 ""
   "Figures/Sphericity_Analysis_density.png" 1762810439 333002 8a0e0be1e07a5b7557f176478d082844 ""
   "Figures/Velocity_and_Dynamical_Time_Profiles.png" 1762806145 295413 fb8cacdfa1d968d503817ddcd986116b ""
-  "Introduction.tex" 1762810087 9535 3ea910f077e75e7e4314b37475959e4e ""
+  "Introduction.tex" 1762868591 10867 9113999d1d1ac6ae988636649a1d83ab ""
   "Titlepage.tex" 1761842464 890 05aba8988585b304206cb55c71055410 ""
   "e:/studie/Master/Theoretical-and-Numerical-Astrophysics/TANA_project/Paper/main.tex" 1762805632 1720 9f8936ec7b8f87c1c717d3357174a1c8 ""
   "images/Gravity-9b985a4-scaled.jpg" 1761842464 559358 17cbf6be21c57950359c2292deeac888 ""

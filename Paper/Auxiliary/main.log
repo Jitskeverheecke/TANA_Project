@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.17)  10 NOV 2025 22:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.17)  11 NOV 2025 14:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -632,40 +632,41 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 [2 <./Figures/DM_Distribution_Velocity_Encoded.png>]
-<Figures/Enclosed_Mass_Profile.png, id=64, 270.2898pt x 267.8808pt>
+<Figures/Enclosed_Mass_Profile.png, id=66, 270.2898pt x 267.8808pt>
 File: Figures/Enclosed_Mass_Profile.png Graphic file (type png)
 <use Figures/Enclosed_Mass_Profile.png>
-Package pdftex.def Info: Figures/Enclosed_Mass_Profile.png  used on input line 69.
+Package pdftex.def Info: Figures/Enclosed_Mass_Profile.png  used on input line 70.
 (pdftex.def)             Requested size: 170.71393pt x 169.19498pt.
-<Figures/Density_and_Potential_Fits.png, id=65, 1069.596pt x 346.896pt>
-File: Figures/Density_and_Potential_Fits.png Graphic file (type png)
-<use Figures/Density_and_Potential_Fits.png>
-Package pdftex.def Info: Figures/Density_and_Potential_Fits.png  used on input line 92.
-(pdftex.def)             Requested size: 426.79134pt x 138.42245pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/Velocity_and_Dynamical_Time_Profiles.png, id=66, 1066.7052pt x 269.3262pt>
-File: Figures/Velocity_and_Dynamical_Time_Profiles.png Graphic file (type png)
-<use Figures/Velocity_and_Dynamical_Time_Profiles.png>
-Package pdftex.def Info: Figures/Velocity_and_Dynamical_Time_Profiles.png  used on input line 99.
-(pdftex.def)             Requested size: 426.79134pt x 107.75734pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)
 
 [3 <./Figures/Sphericity_Analysis_density.png> <./Figures/Enclosed_Mass_Profile.png>]
+<Figures/Density_and_Potential_Fits.png, id=80, 1069.596pt x 346.896pt>
+File: Figures/Density_and_Potential_Fits.png Graphic file (type png)
+<use Figures/Density_and_Potential_Fits.png>
+Package pdftex.def Info: Figures/Density_and_Potential_Fits.png  used on input line 93.
+(pdftex.def)             Requested size: 426.79134pt x 138.42245pt.
+<Figures/Velocity_and_Dynamical_Time_Profiles.png, id=81, 1066.7052pt x 269.3262pt>
+File: Figures/Velocity_and_Dynamical_Time_Profiles.png Graphic file (type png)
+<use Figures/Velocity_and_Dynamical_Time_Profiles.png>
+Package pdftex.def Info: Figures/Velocity_and_Dynamical_Time_Profiles.png  used on input line 100.
+(pdftex.def)             Requested size: 426.79134pt x 107.75734pt.
+<Figures/Orbits_in_Einasto_Potential_8kpc.png, id=82, 1052.9739pt x 343.5234pt>
+File: Figures/Orbits_in_Einasto_Potential_8kpc.png Graphic file (type png)
+<use Figures/Orbits_in_Einasto_Potential_8kpc.png>
+Package pdftex.def Info: Figures/Orbits_in_Einasto_Potential_8kpc.png  used on input line 107.
+(pdftex.def)             Requested size: 426.79134pt x 139.23628pt.
+)
 
 [4 <./Figures/Density_and_Potential_Fits.png> <./Figures/Velocity_and_Dynamical_Time_Profiles.png>]
+
+[5 <./Figures/Orbits_in_Einasto_Potential_8kpc.png>]
 \openout2 = `Appendix.aux'.
 
  (Appendix.tex
 Appendix A.
 )
 
-[5
+[6
 
 
 
@@ -676,12 +677,12 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 
-[6
+[7
 
 
 
 ]
-runsystem(latexminted cleantemp  --timestamp 20251110223401 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
+runsystem(latexminted cleantemp  --timestamp 20251111144313 FAD58DE7366495DB4650CFEFAC2FCD61)...disabled (restricted).
 
  (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.aux (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Introduction.aux) (e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\Appendix.aux))
  ***********
@@ -692,17 +693,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A6D0B81D4B594F052E3631ED694D530D;592.
  ) 
 Here is how much of TeX's memory you used:
- 20505 strings out of 468133
- 401989 string characters out of 5430712
+ 20518 strings out of 468133
+ 402496 string characters out of 5430712
  1038311 words of memory out of 5000000
- 48821 multiletter control sequences out of 15000+600000
+ 48832 multiletter control sequences out of 15000+600000
  632268 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,10n,79p,1072b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/chris/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.pdf (8 pages, 6467598 bytes).
+Output written on e:\studie\Master\Theoretical-and-Numerical-Astrophysics\TANA_project\Paper\Auxiliary\main.pdf (9 pages, 6817204 bytes).
 PDF statistics:
- 169 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 178 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 

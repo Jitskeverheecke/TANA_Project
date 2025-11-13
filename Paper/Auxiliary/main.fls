@@ -296,13 +296,12 @@ INPUT .\Figures\Density_and_Potential_Fits.png
 INPUT .\Figures\Density_and_Potential_Fits.png
 INPUT .\Figures\Density_and_Potential_Fits.png
 INPUT .\Figures\Density_and_Potential_Fits.png
-INPUT .\Figures\Velocity_and_Dynamical_Time_Profiles.png
-INPUT .\Figures\Velocity_and_Dynamical_Time_Profiles.png
-INPUT .\Figures\Velocity_and_Dynamical_Time_Profiles.png
-INPUT .\Figures\Velocity_and_Dynamical_Time_Profiles.png
-INPUT .\Figures\Velocity_and_Dynamical_Time_Profiles.png
-INPUT .\Figures\Velocity_and_Dynamical_Time_Profiles.png
-INPUT .\Figures\Velocity_and_Dynamical_Time_Profiles.png
+INPUT .\Figures\Velocity_and_score_Profiles.png
+INPUT .\Figures\Velocity_and_score_Profiles.png
+INPUT .\Figures\Velocity_and_score_Profiles.png
+INPUT .\Figures\Velocity_and_score_Profiles.png
+INPUT .\Figures\Velocity_and_score_Profiles.png
+INPUT .\Figures\Velocity_and_score_Profiles.png
 INPUT .\Figures\Orbits_in_Einasto_Potential_8kpc.png
 INPUT .\Figures\Orbits_in_Einasto_Potential_8kpc.png
 INPUT .\Figures\Orbits_in_Einasto_Potential_8kpc.png
@@ -357,3 +356,5 @@ INPUT C:\Users\chris\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\chris\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\chris\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Users\chris\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Users\chris\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Users\chris\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb

@@ -1,10 +1,10 @@
 \chapter{Dynamical analysis of a dark-matter halo in cosmological and hydrodynamical simulations}
-Simulation forms an important tool in theoretical astrophysics, allowing to model the complex structure of processes of the universe. Moreover, with the increase in computational power, simulations have become more detailed and accessible for application in astrophysics.
+Simulation forms an important tool in theoretical astrophysics, allowing to model the complex structure of processes of the universe. Moreover, with the increase in computational power, simulations have become more detailed and accessible for application in complex astrophysical problems.
 
 The IllustrisTNG project steers towards a predictive theory of galaxy formation, and aims to model the universe from the very beginning after the Big Bang to the present day.
-In this project a short and quantitative analysis of a cosmological simulation that was performed within the framework of IllustrisTNG is presented. Here, the focus is laid on the analysis and discussion of the properties of a single subhalo, thus a cutout with ID 344137. 
+In this report a short and quantitative analysis of a cosmological simulation that was performed within the framework of IllustrisTNG is presented. Here, the focus is on the analysis and discussion of the properties of a single subhalo, thus a cutout with ID 344137. 
 
-This dataset contains $N = 268525$ dark matter particles with in a cubic volume of side length $L = 35000 h^{-1}$kpc in physical length at redshift of $z\approx 0$. Here, the quantity $h=0.6774$ refers to the dimensionless Hubble parameter. Each individual particle the ensemble has a mass of $m_\text{DM} \approx 10^{6.73} M_\odot$ with $ M_\odot$ the solar mass, 3D position and corresponding velocity attributes. The system was simulated in a $\Lambda$CDM setting with $\Omega_m = 0.3089$ and $\Omega_\Lambda = 0.6911$. Even though baryonic processes will not be discussed in this work, it is worth mentioning that the full simulation also included gas cells (baryonic matter) as well with a baryonic content of $\Omega_b = 0.0486$. Other cosmological parameters and quantities of the simulation that are relevant for this work is summarized in \cref{tab:cosmological_parameters}.
+This dataset contains $N = 268525$ dark matter particles within a cubic volume of side length $L = 35000 h^{-1}$kpc in physical length at redshift of $z\approx 0$. Here, the quantity $h=0.6774$ refers to the dimensionless Hubble parameter. Each individual particle the ensemble has a mass of $m_\text{DM} \approx 10^{6.73} M_\odot$ with $ M_\odot$ the solar mass, 3D position and corresponding velocity attributes. The system was simulated in a $\Lambda$CDM setting with $\Omega_m = 0.3089$ and $\Omega_\Lambda = 0.6911$. Even though baryonic processes will not be discussed in this work, it is worth mentioning that the full simulation also included gas cells (baryonic matter) as well with a baryonic content of $\Omega_b = 0.0486$. Other cosmological parameters and quantities of the simulation that are relevant for this work is summarized in \cref{tab:cosmological_parameters}.
 \begin{figure}[h]
     \begin{minipage}[c]{0.4\textwidth}
       \centering
@@ -29,14 +29,14 @@ The number density profile ($n(\textbf{r})$) of a distribution of point particle
 \begin{equation*}
     n(\textbf{r}) = n(r,\theta,\phi)=\frac{1}{V}\sum_{i} \delta(\textbf{r} - \textbf{r}_i)
 \end{equation*}
-where the sum runs over all particles $i$ at position $\textbf{r}_i$ within a volume $V$. In the framework, the dataset is binned in $N=28$ spherical shells of thickness $\Delta r$ and radius $r$ around the center of mass of the system, containing particles i with spherical coordinates $(r_i, \theta_i, \phi_i)$. For each shell, the spherical harmonics decomposition of the distribution field is performed by the virtue of \cref{eq:spherical_harmonics_expansion}
+where the sum runs over all particles $i$ at position $\textbf{r}_i$ within a volume $V$. In the framework, the dataset is binned in $N=28$ spherical shells of thickness $\Delta r$ and radius $r$ around the center of mass of the system, containing particles i with spherical coordinates $(r_i, \theta_i, \phi_i)$. For each shell, the spherical harmonic decomposition of the distribution field is performed by the virtue of \cref{eq:spherical_harmonics_expansion}
 \begin{equation*}
     n(\textbf{r}) = n(r, \theta, \phi) = \sum_{l=0}^{\infty} \sum_{m=-l}^{l} n_{lm}(r) Y_{lm}(\theta, \phi)
     \label{eq:spherical_harmonics_expansion}
 \end{equation*}
 with $Y_{lm}(\theta, \phi)$ the spherical harmonics basis functions of order $l$ and degree $m$, and invoking the orthonormality. The coefficients $n_{lm}(r)$ are then further used to compute the power spectrum $P_l$ of the distribution as a function of the multipole order $l$ via
 \begin{equation}
-    P_l = \frac{1}{2l+1} \sum_{m=-l}^{l} |n_{lm}|^2.
+    P_l(r) = \frac{1}{2l+1} \sum_{m=-l}^{l} |n_{lm}(r)|^2.
 \end{equation}
 For a perfectly spherically symmetric system, only the monopole term ($n_{00}$) with ($l=0, m=0$) in the expansion survives. However, as shown in \cref{fig:sphericity_analysis_density}, the power originating from the dipole ($l=1$) and quadrupole ($l=2$) as well as $l=3$ survives. Eventhough these power survives, it can be seen that this remains in a good approximation constant for distances below approximately $100$ kpc and relatively smaller than $P_0$. The increase in the power for radii larger than $100$ kpc can be attributed to outliers and uncertainities in the density field due to less data points.
 
@@ -47,7 +47,7 @@ Thus, in a good approximation, the dark matter distribution in the subhalo can b
     \caption{Spherical harmonic decomposition of the density field of the dark matter distribution in the subhalo. The power spectrum $P_l$ is normalized to the monopole term $P_0$. The dominance of the monopole term ($l=0$) indicates a high degree of spherical symmetry of the system.}
     \label{fig:sphericity_analysis_density}
 \end{figure}
-Carrying on with a spherical distribution in mind, the mass density profile ($\rho(r)$), hence forth referred simply to as density, is directly related to the spherical number density via $\rho(r) = m_\text{DM} n(r)$ with $m_\text{DM}$ the mass of an individual dark matter particle. The density $\rho(r)$ or equivalently $n(r)$ of the discrete dataset is obtained by binning the particles in radial distance of radius $r$ and thickness $\Delta r$ in the center of mass of the system and counting the number of particles in each bin. This is simply achieved by yse of the \textit{numpy} \texttt{histogram} function with 28 bins logarithmically spaced between the minimum and maximum radial distance of the particles. Dividing the number of particles in each bin by the corresponding shell volume and multiplying with the particle mass yields the density profile $\rho(r)$. Mathematically, this process amount to 
+Carrying on with a spherical distribution in mind, the mass density profile ($\rho(r)$), hence forth referred simply to as density, is directly related to the spherical number density via $\rho(r) = m_\text{DM} n(r)$ with $m_\text{DM}$ the mass of an individual dark matter particle. The density $\rho(r)$ or equivalently $n(r)$ of the discrete dataset is obtained by binning the particles in radial distance of radius $r$ and thickness $\Delta r$ in the center of mass of the system and counting the number of particles in each bin. This is simply achieved by use of the \textit{numpy} \texttt{histogram} function with 28 bins logarithmically spaced between the minimum and maximum radial distance of the particles. Dividing the number of particles in each bin by the corresponding shell volume and multiplying with the particle mass yields the density profile $\rho(r)$. Mathematically, this process amount to 
 \begin{equation}
     \rho(r_i) = \frac{m_\text{DM}}{V_i} \sum_{r_j \in \text{shell } i} 1 = \frac{3 \cdot m_\text{DM}}{4\pi (r_{i+1}^3-r_{i-1}^3) } \sum_{r_j \in \text{shell } i} 1.
 \end{equation}
@@ -58,7 +58,7 @@ The density profile shows a typical behaviour of a dark matter halo, with a stee
     M(r_i) = 4\pi \sum_{r_j \leq r_i}  r'^2_j \rho(r_j) \, \Delta r_j
     \label{eq:enclosed_mass_profile}
 \end{equation}
-The enclosed mass profile $M(r)$ of the system, computed via integration of the density profile according to \cref{eq:enclosed_mass_profile}, is illustrated in \cref{fig:enclosed_mass_profile}. It is evident as argumented already that almost all of the mass of the system is concentrated within a radius of approximately $100$ kpc, with virtually no to little increase in mass for larger radii.
+The enclosed mass profile $M(r)$ of the system, computed via integration of the density profile according to \cref{eq:enclosed_mass_profile}, is illustrated in \cref{fig:enclosed_mass_profile}. It is evident as argumented already that almost all of the mass of the system is concentrated within a radius of approximately $100$ kpc, with virtually little to no increase in mass for larger radii.
 \begin{figure}[h]
     \begin{minipage}[c]{0.5\textwidth}
       \centering
@@ -71,22 +71,41 @@ The enclosed mass profile $M(r)$ of the system, computed via integration of the 
     \end{minipage}
 \end{figure}
 
-\begin{center}
-    \rule{0.5\textwidth}{0.5pt}
-\end{center}
-\textbf{Continue from here}
+To support future calculations, the radial density profile of the system was fitted with several candidate spherically symmetric potentials. A few of these wide range of possibilities include the Plummer model, Hernquist, NFW, Einasto and the Dehnen model. These educated guesses were based on literature and visual inspection of the result.
+The Einasto and NFW profile which in good approximation models the system very are fo form
 \begin{equation}
-    \Phi(r_i) = -\frac{G M(r_i)}{r_i} - 4\pi G \sum_{r_j \leq r_i} \rho(r_j) r'_j \, \Delta r_j
+    \rho_{EIN}(r) = \rho_0 \exp{\left(-2n \left[ \left( \frac{r}{r_{-2}} \right)^{\frac{1}{n}} - 1 \right]
+    \right)}
+    \label{eq:Einasto}
 \end{equation}
-
+and
 \begin{equation}
-    \rho(r) = \rho_0 \exp{\left(-2n \left[ \left( \frac{r}{r_s} \right)^{\frac{1}{n}} - 1 \right] \right)}
+    \rho_{\mathrm{NFW}}(r) = \frac{\rho_0}{4\pi r_s^3}\frac{1}{\left(\frac{r}{r_s}\right) \left(1 + \frac{r}{r_s}\right)^2}
+    \label{eq:NWF}
 \end{equation}
+where $\rho_0$ in both model serves as a reference with $r_{-2}$ and $r_s$ as reference scale radius of the system.
 
+\Cref{fig:density_potential} shows the densities on a log-log plot, where the parameter values were chosen using scipy's build-in function curve fit using the r bins as defined before. To improve the fits, we left out the four most outer bins so the potential was more spherical. \\
+At first sight significant deviations between the fitted profiles and the measured data are already apparent, although it is not immediately clear which model provides the best match. To quantify this, the relative error per radial bin was computed. From this analysis, it is hard to conclude which fit is the best one. \\
+In the next calculations we only worked with the NFW and Einasto profiles. The expressions of these are defined as \cref{eq:Einasto} and \cref{NFW}. The parameter $r_s$ is defined to be the radius where density resembles the density of an isothermal sphere, n is the Einasto index which defines the steepness of the power law and b is a scaling factor. As said before, these were calculated from a build-in optimizer. The found values are:
+\begin{align*}
+    \textbf{NFW:} \quad & \rho_0 = 1.55\, M_{\odot}/\text{kpc}^3, \\[4pt]
+    & b = 23.84\, \text{kpc} \\[10pt]
+    \textbf{Einasto:} \quad & \rho_0 = 8.811784 \times 10^{6}\, M_{\odot}/\text{kpc}^3, \\[4pt]
+    & r_s = 16.26\, \text{kpc}, \\[4pt]
+    & n = 2.18
+\end{align*}
+
+It is worth noting that the relative error increases for radii $r \gtrsim 100$~kpc due to the mismatch between the assumed spherical profiles and the actual distribution in the outer regions of the halo. The cusp behavior does not have that much of an impact on the fitting results, as seen in the relative error. \\
+
+For spherical systems, the potential can be inferred from the enclosed mass and or density profile. This is done by solving the radial Poisson equation, which amounts to the following numerical expression
 \begin{equation}
-    \beta_j(r) = 1 - \frac{\sigma^2_j(r)}{\sigma^2_r(r)}
+    \Phi(r) = -G \int_0^r \frac{M(r')}{r'^2} \, dr' \xrightarrow{} -\frac{G M(r_i)}{r_i} - 4\pi G \sum_{r_j \geq r_i} \rho(r_j) r'_j \, \Delta r_j,
+    \label{eq:potential_profile}
 \end{equation}
+where $M(r)$ is the enclosed mass within radius $r$ as discussed above.
 
+The resulting discrete potential profile is shown in the right figure of \cref{fig:density_potential} in scattered data points. The corresponding continuous potential profile obtained from the fitting process of the density function to the NFW and Einasto profiles is shown. It is evident that the latter Einasto profile provides a close match with the potential function of the system compared to the former NFW model. On the relevant scale length, i.e $r\leq 100$ kpc, the Einasto profile serves as a good potential model for the system. The NFW profile provides a good approximation to the potential for the system for very small radii ($r \lessapprox 15$kpc), however, there is er significant mismatch larger radii. Overalll it can be concluded that theEinasto,o, unlike the NFW provides a good approximation to the overal characteristics of the system on the relevant length scale.
 
 \begin{figure}[h]
     \centering
@@ -95,16 +114,58 @@ The enclosed mass profile $M(r)$ of the system, computed via integration of the 
     \label{fig:density_potential}
 \end{figure}
 
+Next, certain dynamical properties of the halo are investigated. 
+First, we analyze the circular velocity profile, which can be directly derived from the particle data using \cref{eq:circ}. For the particle data, we find a maximum circular velocity of $v_\text{max} \approx 305~\text{km/s}$ at $r_{-2} = 16~\text{kpc}$. $r_{-2}$ is the radius where the logarithmic slope of the density profile is equal to $-2$, commonly referred to as the scale radius. This is a typical feature observed in dark matter halos.
+
+We then compare the particle data to an Einasto fit obtained using \texttt{galpy}. For the Einasto profile, a slightly higher maximum velocity of $v_\text{max} \approx 318~\text{km/s}$ is found at a larger radius. This difference can be assigned to the nature of the fit, while the particle data can exhibit small-scale fluctuations, and the fitting procedure effectively averages over these variations. As a result, the Einasto profile produces a smoother, less centrally concentrated mass distribution, causing the peak of $M(r)/r$ to shift outward.
+
+
+\begin{equation}
+    v_c(r) = \sqrt{\frac{GM(r)}{r}}
+    \label{eq:circ}
+\end{equation}
+
 \begin{figure}
     \centering
-    \includegraphics[width=\textwidth]{Figures/Velocity_and_Dynamical_Time_Profiles.png}
+    \includegraphics[width=\textwidth]{Figures/Velocity_and_score_Profiles}
     \caption{Profiles of circular velocity, velocity anisotropy, and dynamical time of the dark matter distribution in the subhalo.}
     \label{fig:velocity_dynamical_time}
 \end{figure}
+
+Next, we investigate the velocity anisotropy $\beta(r)$ as a function of radius. Based on the approximately spherical profile of the halo, we expect the anisotropy to be zero, indicating an isotropic velocity distribution.
+
+To compute the anisotropy, the coordinate system was transformed to polar coordinates, allowing the evaluation of $\beta(r)$ in all directions using
+\begin{equation}
+    \beta_j(r) = 1 - \frac{\sigma^2_j(r)}{\sigma^2_r(r)},
+    \label{vel_anisotropy}
+\end{equation}
+where $\sigma_j(r)$ is the velocity dispersion in the $j$-th direction and $\sigma_r(r)$ is the radial velocity dispersion. 
+
+The results are shown in \cref{fig:DM_distribution_velocity_encoded} (center). 
+In the polar direction, $\beta_\theta(r)$ remains approximately constant at values between $0.5$ and $0.6$ across all radii, indicating that the orbits have a slight preference for the radial direction. 
+The uniformity of $\beta_\theta(r)$ suggests that the structure of the dark matter halo does not vary significantly with radius. 
+
+In contrast, the azimuthal anisotropy parameter $\beta_\phi(r)$ exhibits small fluctuations with peaks near $r \approx 50~\text{kpc}$ and $r \approx 100~\text{kpc}$. \\
+The variations within the range $[-0.2, 0]$ indicate that the azimuthal velocity dispersion is slightly larger than the radial component at these radii, implying a small preference for tangential motion. 
+The local maximum around $r \approx 50~\text{kpc}$ where $\beta_\phi \approx 0.1$ suggests that particles become nearly isotropic, with a weak tendency toward radial motion. \\
+One possible explanation for this deviation is the presence of a substructure at this radius. 
+Supporting evidence for this is the small increase in $\beta_\theta(r)$ around the same region. 
+Toward the outer regions of the halo, the anisotropy continues to increase, likely due to the influence of surrounding halos or external structures.\\
+\\
+The last velocity analysis performed is the $\overline{v_j}/ \sigma_j (r)$ ratio. The red curve shows the radial direction. Herefore the ratio decreases over radius from 0.25 at the center to -0.10 around 100kpc. The switch of sign indicates that the velocity changes direction at this point. A possible explanation is that this is an influence of a nearby halo on the outermost particles. But we need to be careful about this conclusion because of the small values, this can also be an error. \\
+The blue curve represents the azimuth direction, this increases from [-0.75,0.25]. Since the polar coördinates are defined in counter clockwise direction, negative values correspond with clockwise movement. There is again a change in direction of the outermost region. \\
+At last the theta or polar direction is investigated. Here the values increase slowly from [-1.25,-0.75] again a slow clockwise movement with no influence of nearby halo's on the outermost particles in the polar direction. 
+
+misschien proberen een link te leggen tussen anisotropy en v/sigma
+
+
 
 \begin{figure}
     \centering
     \includegraphics[width=\textwidth]{Figures/Orbits_in_Einasto_Potential_8kpc.png}
     \caption{Orbits of a test particles initialized at a distance of $r_0 = 8$ kpc from the center of mass of the system with different initial circular velocity. The stable orbit (blue) corresponds to the circular velocity at this radius, while the other orbits (orange and green) show precessing rosette patterns due to their lower and higher initial velocity, respectively. The potential used for the orbit integration is the fitted Einasto potential of the system.}
     \label{fig:orbits_in_einasto_potential}
+
+    
 \end{figure}
+

@@ -1,3 +1,3 @@
 \babel@toc {english}{}\relax 
 \contentsline {chapter}{\numberline {1}Dynamical analysis of a dark-matter halo in cosmological and hydrodynamical simulations}{1}{chapter.1}%
-\contentsline {chapter}{\numberline {A}Appendix}{6}{appendix.A}%
+\contentsline {chapter}{\numberline {A}Appendix}{7}{appendix.A}%

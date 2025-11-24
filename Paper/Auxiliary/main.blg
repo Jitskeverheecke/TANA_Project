@@ -3,6 +3,8 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 Reallocating 'name_of_file' (item size: 1) to 17 items.
 A level-1 auxiliary file: Introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+A level-1 auxiliary file: Parttwo.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: Appendix.aux
 Reallocating 'name_of_file' (item size: 1) to 7 items.
@@ -12,7 +14,7 @@ I found no \citation commands---while reading file main.aux
 Database file #1: ref.bib
 You've used 0 entries,
             1876 wiz_defined-function locations,
-            479 strings with 3489 characters,
+            480 strings with 3500 characters,
 and the built_in function-call counts, 20 in all, are:
 = -- 0
 > -- 0

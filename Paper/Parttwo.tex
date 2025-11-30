@@ -5,12 +5,20 @@ The analysis of the statistical spectrum of distant galaxies may shed light on t
 \end{equation}
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth]{Figures/Subhalo_density_contrast.png}
+    \includegraphics[width=\linewidth]{Figures/Subhalo_all_density_contrast.png}
     \caption{Density contrast of a subhalo extracted from the TNG100 data set. The three panels show the density contrast in the xy-, xz- and yz- planes respectively. The color bar indicates the value of the density contrast $\delta$. Above distributions of $\delta$ resembles all subhalos in the TNG100 simulation box, whether they host a galaxy or not.}
-    \label{fig:placeholder}
+    \label{fig:subhalo_all_density_contrast}
+\end{figure}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{Figures/Subhalo_density_contrast.png}
+    \caption{Density contrast of galaxy hosting subhalo extracted from the TNG100 data set. The three panels show the density contrast in the xy-, xz- and yz- planes respectively. The color bar indicates the value of the density contrast $\delta$.}
+    \label{fig:subhalo_density_contrast}
 \end{figure}
 \\
 natural estimator
+
 \begin{equation}
     \xi(r) = \frac{\text{DD(r)}}{\text{RR(r)}} - 1
 \end{equation}
@@ -38,6 +46,35 @@ natural estimator
         \includegraphics[width=\textwidth]{Figures/Subhalo_Stellar_Mass_vs_subhalo_Mass.png}
         \caption{Scattered stellar mass vs subhalo mass. The red dashed line indicates a linear relation with a slope of $f_\text{b} = 0.157$. The expresses a theoretical upper limit for the stellar mass that can be contained in a halo. Here it can be observed that some subhalos host galaxies with stellar mass exceeding this limit.}
         \label{fig:stellar_vs_subhalo_mass}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[htb]
+    \centering
+    \begin{minipage}{0.47\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Figures/subhalo_SFR_vs_Stellar_Mass.png}
+        \caption{Star formation rate scattered as function of stellar mass. The color bar indicates the logarithm of the black hole mass contained in the host subhalo. A linear trend can be observed where higher stellar mass corresponds to a higher star formation rate while at the same time, the black hole mass increases with increasing stellar mass.}
+        \label{fig:SFR_vs_stellar_mass}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.47\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Figures/Subhalo_Black_Hole_Mass_vs_Stellar_Mass.png}
+        \caption{Black hole mass scattered as function of stellar mass. A clear correlation can be observed where higher stellar mass corresponds to higher black hole mass.}
+        \label{fig:BH_vs_stellar_mass}
+    \end{minipage}
+\end{figure}
+
+\begin{figure}[htb]
+    \begin{minipage}[c]{0.5\textwidth}
+      \centering
+      \caption{Scattered black hole mass versus velocity dispersion. A clear correlation can be observed where higher velocity dispersion corresponds to higher black hole mass. This trend is in agreement with notion where the circular velocity is a proxy for the bulge mass of a galaxy, which in turn correlates with the black hole mass at the center of the galaxy.}
+      \label{fig:SubhaloBHMassvsVelocityDispersion}
+    \end{minipage}\hfill
+    \begin{minipage}[c]{0.49\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{Figures/Subhalo_BH_Mass_vs_Velocity_Dispersion.png}
     \end{minipage}
 \end{figure}
 
